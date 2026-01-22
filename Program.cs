@@ -20,7 +20,7 @@ class Program
     static void Main(string[] args)
     {
         var pepe = new Persona();
-        pepe.Nombre = "pepe";
+        pepe.Nombre = "Jose";
         Console.WriteLine(pepe.Nombre);
     }
 }
