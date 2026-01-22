@@ -19,7 +19,8 @@ class Program
 {
     static void Main(string[] args)
     {
-        var pepe = new Persona(null);
+        var pepe = new Persona();
+        pepe.Nombre = "pepe";
         Console.WriteLine(pepe.Nombre);
     }
 }
